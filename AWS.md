@@ -48,6 +48,15 @@
 - Private Cloud (On-premise)
 - Hybrid Cloud
 
+# Set-up an IAM account:
+- Go to IAM
+- Make a new user
+- Make a new group
+- Give permission to that group
+
+# AWS budgets:
+- 
+
 ## EC2 (Elastic Compute Cloud)
  - It's a VM provides security,networking and storage facilities.
  - Pay-as-you-model.
