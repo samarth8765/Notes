@@ -35,8 +35,8 @@ Before jumping on microservices we should first learn what is a Monolith archite
 
     - How do we manage the code ?
         - Their are two ways in which we can manage our code:
-        1. Monorepo - Using 1 git repository that contains many projects. Makes the code management and development easier .
-        2.  Polyrepo - Using multiple git repository.
+        1. Mono-repo - Using 1 git repository that contains many projects. Makes the code management and development easier .
+        2.  Poly-repo - Using multiple git repository.
 
 
 - Microservices developed new challenges.

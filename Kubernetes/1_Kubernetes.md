@@ -23,7 +23,6 @@
 - Batch execution
 
 - Kubernetes support two types of scripting langauges JSON and YAML.
-- It works on master slave archritecture.
+- It works on Master-Slave archritecture.
 - Each worker node contains multiple pods(smallest unit of kubernetes) and each pod can contain single or multiple containers.
-- Kubernetes donot directly works with container either they work with pods.
-- 
+- Kubernetes do not directly works with container rather they work with pods.

@@ -9,17 +9,16 @@
     - Before docker, many users faces the problem that a particular code is running in the developer's system but not on the user's system.
 - It's a platform as a service.
 
-
 # Disadvantages of Docker- 
 - Not good for gui application
 - Docker is suitable when the development OS and testing OS are same.
 
 # Architecture of Docker
-- First create a Dockerfile from which we create an Docker-Image.
+- First create a Dockerfile from which we can create Docker-Image.
 - Then we can run the docker image in the docker-container.
 - Container has layered file system(it install files in layers).
 
-# Docker is an ecosystem
+# Docker is an ecosystem which contains
 - Docker Client
     - Users can interact with docker daemon with Docker client.
     - Docker client uses CLI or REST API's to communicate with docker daemon.
@@ -37,7 +36,7 @@
     - Single file with all the dependencies and configuration to run a program.
     - Ways to create an image
         - Take image from docker hub.
-        - Create image from dockerfile.
+        - Create image from Dockerfile.
         - Create image from existing container.
 
 - Docker container
@@ -57,9 +56,9 @@
 ```
     - docker pull [name of the file]
 ```
-- To download and run container( run a container or download and run a container )
+- To download and run container( run a container from a local image or download and run a container )
 ```
-    - docker run -it --name [name_of_the_container ]  [name of the file]  /bin/bash
+    - docker run -it --name [name_of_the_container] [name of the file]  /bin/bash
      i -> interactive mode 
      t -> terminal
 ```
