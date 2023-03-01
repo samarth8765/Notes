@@ -42,6 +42,8 @@
 - Docker container
     - Containers are instance of an image just like objects are instance of a class. Image is an template and container is the copy of that template.
     - Container runs the entire applications.
+<img src="1_Docker_Image_container.png">
+<img src="2_Docker_image_Container.png">
 
 # Basic commands of Docker
 - To see all images present in your local machine
@@ -62,7 +64,7 @@
      i -> interactive mode 
      t -> terminal
 ```
-- To check servie is start or not
+- To check service is start or not
 ```
     - systemctl status docker
 ```
